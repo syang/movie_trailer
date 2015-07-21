@@ -20,8 +20,16 @@ $cd movie_trailer
 $python -c"import fresh_tomatoes; import entertainment_center; fresh_tomatoes.open_movies_page(entertainment_center.generate_movie_list())"
 ```
 
-## Code Structure for Readers
+## Code Structure for Readers/Developers
 
     * fresh_tomatoes.py  - the site generation module, containing functions that generate movie trailer pages
     * media.py  - the data structure module, describing what fields/data a movie contains
     * entertainment_center.py - this is the module that create a list of movies
+
+#### Code style checking
+Note that: we don't fix code styple problems in the fresh_tomatoes.py module
+
+```
+$pip install -r requirements.txt
+$flake8 *.py
+```
