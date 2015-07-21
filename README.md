@@ -24,3 +24,4 @@ $python -c"import fresh_tomatoes; import entertainment_center; fresh_tomatoes.op
 
     * fresh_tomatoes.py  - the site generation module, containing functions that generate movie trailer pages
     * media.py  - the data structure module, describing what fields/data a movie contains
+    * entertainment_center.py - this is the module that create a list of movies
