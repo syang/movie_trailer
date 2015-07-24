@@ -1,3 +1,6 @@
+# The movie list generator module:
+#    will be used by open_movies_page()
+
 from media import Movie
 
 
@@ -9,20 +12,17 @@ def generate_movie_list():
     movie_list = []
     movie_list.append(
         Movie('Toy Story 3',
-              'http://www.gstatic.com/tv/thumb/dvdboxart/\
-              3546307/p3546307_d_v7_aa.jpg',
+              './toy_story_3.jpg',
               'https://www.youtube.com/watch?v=JcpWXaA2qeg')
     )
     movie_list.append(
         Movie('School of Rock',
-              'https://upload.wikimedia.org/wikipedia/en/\
-              1/11/School_of_Rock_Poster.jpg',
+              'school_of_rock.jpg',
               'https://youtu.be/3PsUJFEBC74')
     )
     movie_list.append(
         Movie('Ratatouille',
-              'https://upload.wikimedia.org/wikipedia/\
-              en/5/50/RatatouillePoster.jpg',
+              'RatatouillePoster.jpg',
               'https://youtu.be/uVeNEbh3A4U')
     )
 
