@@ -17,7 +17,7 @@ $cd movie_trailer
 - Invoke the program as follows
 
 ```
-$python -c"import fresh_tomatoes; import entertainment_center; fresh_tomatoes.open_movies_page(entertainment_center.generate_movie_list())"
+$python entertainment_center.py
 ```
 
 ## Code Structure for Readers/Developers
